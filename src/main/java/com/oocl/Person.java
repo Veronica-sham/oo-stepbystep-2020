@@ -4,28 +4,28 @@ public class Person {
     private String name;
     private int age;
 
-    public Person(int age, String name){
+    public Person(int age, String name) {
         this.age = age;
         this.name = name;
     }
 
-    public String getName(){
+    public String getName() {
         return this.name;
     }
 
-    public String setName(){
+    public String setName() {
         return this.name;
     }
 
-    public int getAge(){
+    public int getAge() {
         return this.age;
     }
 
-    public int setAge(){
+    public int setAge() {
         return this.age;
     }
 
-    public String introduce(){
-        return ("My Name is "+ this.getName() +". I am "+ this.getAge()+" years old.");
+    public String introduce() {
+        return ("My Name is " + this.getName() + ". I am " + this.getAge() + " years old.");
     }
 }

@@ -1,6 +1,6 @@
 package com.oocl;
 
-public class Student extends Person{
+public class Student extends Person {
 
     private int classNo;
 
@@ -8,8 +8,8 @@ public class Student extends Person{
         super(age, name);
     }
 
-    public String introduce(){
-        return ("My Name is "+ this.getName() +". I am "+ this.getAge()+" years old. I am a student of class "+this.getClassNo()+". Coding for the glory of OOCL.");
+    public String introduce() {
+        return ("My Name is " + this.getName() + ". I am " + this.getAge() + " years old. I am a student of class " + this.getClassNo() + ". Coding for the glory of OOCL.");
     }
 
     public boolean haveThisStudent(Student student) {
