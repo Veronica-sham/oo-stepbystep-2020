@@ -2,11 +2,18 @@ package com.oocl;
 
 public class Teacher extends Person{
 
-   /* private int age;
-    private String name; */
+    private int countClassNo;
 
     public Teacher(int age, String name) {
         super(age, name);
+    }
+
+    public void addKlassNo(){
+        countClassNo++;
+    }
+
+    public int getCountClassNo(){
+        return this.countClassNo;
     }
 
     public String introduce(){

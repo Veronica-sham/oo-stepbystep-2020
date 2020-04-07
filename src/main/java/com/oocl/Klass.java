@@ -15,7 +15,10 @@ public class Klass {
     }
 
     public void assignTeacher(Teacher teacher){
-        this.teacher = teacher;
+        if(teacher.getCountClassNo() < 5){
+            this.teacher = teacher;
+            teacher.addKlassNo();
+        }
     }
 
     public int getNumber(){
